@@ -1,8 +1,7 @@
-
-from io import StringIO
-import os, unittest
+import unittest
 from unittest.mock import patch, MagicMock
-
+from io import StringIO
+import os
 
 # Import the functions from your main script
 from youtube_video_converter import download_audio, convert_to_mp3
